@@ -1,0 +1,33 @@
+.doc-main-panel {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 64px 0 64px;
+}
+
+
+.doc-header {
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 42px;
+}
+
+.doc-label-row {
+    display: flex;
+    gap: 16px
+}
+
+
+.form-helper-text {
+    margin-left: 15px;
+    margin-top: 3px;
+}
+
+.hidden {
+    display: none;
+}
+
+.error-icon {
+    color: #FFB4AC;
+    align-self: center;
+}

@@ -1,0 +1,42 @@
+.QontoStepIcon-completedIcon-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 24px;
+    width: 24px;
+    background-color: #C2C5DD;
+    border-radius: 50%;
+    margin-top: 3px;
+}
+
+.QontoStepIcon-completedIcon:global(.MuiSvgIcon-root) {
+    color: #2B3042;
+    font-weight: bold;
+    z-index: 0;
+    height: 16px;
+    width: 16px;
+
+}
+
+.QontoStepIcon-circle-active {
+    background-color: #424659;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px
+}
+
+.QontoStepIcon-circle {
+    background-color: #2A2A2D;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px
+}

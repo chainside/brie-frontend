@@ -1,0 +1,44 @@
+.ddt-main-panel {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 64px 0 64px;
+}
+
+
+.ddt-header {
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 42px;
+}
+
+.ddt-label-section-container {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+
+.ddt-label-row {
+    display: flex;
+    gap: 16px
+}
+
+
+.form-helper-text {
+    margin-left: 15px;
+    margin-top: 3px;
+}
+
+.hidden {
+    display: none;
+}
+
+.error-icon {
+    color: #FFB4AC;
+    align-self: center;
+}
+
+.gray {
+    color: #C8C6CA
+}

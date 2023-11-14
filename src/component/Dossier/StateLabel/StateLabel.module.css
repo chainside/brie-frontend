@@ -1,0 +1,5 @@
+.state-label {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 15px;
+}

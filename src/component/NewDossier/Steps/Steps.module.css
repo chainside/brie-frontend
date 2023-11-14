@@ -1,0 +1,130 @@
+.step-main-panel {
+    display: flex;
+    flex-direction: column;
+    padding: 0 64px 0 64px;
+    margin-top: 32px;
+}
+
+.step-header {
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 42px;
+}
+
+.step-label-section-container {
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+
+.step-label-row {
+    display: flex;
+    gap: 16px
+}
+
+.step-label-row-stepRecap {
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+}
+
+.step-button-container {
+    padding-inline: 24px;
+}
+
+.step-label-section-container {
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+.step-divider:global(.MuiDivider-root) {
+    margin-top: 1px;
+    margin-Bottom: 1px;
+    padding: 0px 24px 0px 24px;
+    background-color: #45464F;
+}
+
+.table-container {
+    width: 100%;
+    height: 100%;
+    background-color: #1b1b1f;
+    padding-left: 24px;
+    padding-right: 100px;
+}
+
+.table-row {
+    background-color: #1b1b1f;
+}
+
+.table-cell {
+    color: #C2C5DD;
+}
+
+.stepDocument-card {
+    background-color: #1F1F23;
+    width: 100%;
+    height: 220px;
+    padding: 10px
+}
+
+.stepDocument-card-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between
+}
+
+.stepDocument-card-select {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.stepDocument-card-buttons {
+    width: 312px;
+    padding: 16px, 0px, 0px, 16px;
+    gap: 8px;
+    display: flex;
+    flex-direction: row;
+}
+
+.hidden {
+    display: none;
+}
+
+.documents-container {
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+
+.document-control-button {
+    width: 144px;
+    gap: 8px;
+}
+
+.error-icon {
+    color: #FFB4AC;
+    align-self: center;
+}
+
+.list-box-autocomplete:global(.MuiAutocomplete-listbox) {
+    max-height: 208px;
+    z-index: 10;
+}
+
+.list-popper-box-autocomplete:global(.MuiAutocomplete-popper) {
+    z-index: 10;
+    max-height: 208px;
+}
+
+.select-type-menu:global(.MuiPaper-root) {
+    max-height: 208px
+}

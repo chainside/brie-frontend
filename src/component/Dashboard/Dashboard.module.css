@@ -1,0 +1,252 @@
+.main-dasboard-container {
+    padding: 0px 12px 0px 12px;
+
+}
+
+.card-row-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.card-style:global(.MuiCard-root) {
+    flex: 1;
+    border-radius: 16px;
+    height: 120px;
+    background-color: #1b1b1f;
+    padding: 24px 0px 0px 24px;
+    margin-inline: 10px;
+    min-width: 150px;
+
+}
+
+.table-no-padding:global(.MuiTableCell-root) {
+    padding-left: 0px;
+}
+
+.title-row-fixed {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+
+}
+
+.subtitle-row-fixed {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.positive-icon:global(.MuiSvgIcon-root) {
+    color: #C8FFC0;
+    height: 16px;
+    width: 16px;
+    align-self: center;
+    margin-left: 10px;
+    margin-right: 2px;
+}
+
+.negative-icon:global(.MuiSvgIcon-root) {
+    color: #FFB4AC;
+    height: 16px;
+    width: 16px;
+    align-self: center;
+    margin-left: 10px;
+    margin-right: 2px;
+}
+
+.negative-text {
+    color: #FFB4AC;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.positive-text {
+    color: #C8FFC0;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.filter-container {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    width: 80%;
+    margin-top: 8px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+}
+
+.dashboard-background {
+    background-color: #131316;
+    margin-bottom: 50px;
+}
+
+.histogram-card-style:global(.MuiCard-root) {
+    flex: 1;
+    border-radius: 16px;
+    background-color: #1b1b1f;
+    padding: 24px;
+    margin-top: 20px;
+    margin-inline: 10px;
+    height: 408px;
+}
+
+.graphic-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 100vw
+}
+
+.graphic-details-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.barchart-graphic {
+    margin-top: 20px;
+    height: 408px;
+    margin-left: -20px;
+}
+
+.pie-graphic {
+    width: 100%;
+    margin-top: 20px;
+    transform: scale(1.3);
+    margin-left: 40px;
+}
+
+.chart-info-div {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.divider:global(.MuiDivider-root) {
+    width: 1, 100%;
+    height: 1px;
+    margin-top: 10px;
+    margin-Bottom: 10px;
+    padding: 0px 4px 0px 4px;
+    background-color: #343438;
+}
+
+.pie-card-style:global(.MuiCard-root) {
+    flex: 1;
+    border-radius: 16px;
+    background-color: #1b1b1f;
+    padding: 24px;
+    margin-top: 20px;
+    margin-inline: 10px;
+    height: 408px;
+
+}
+
+.area-graphic {
+    margin-top: 20px;
+    height: 408px;
+    margin-left: -20px;
+}
+
+.pie-chart-circle {
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    margin-right: 10px;
+    padding: 4px;
+}
+
+.pie-chart-type-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 160px
+}
+
+.pie-chart {
+    outline: none
+}
+
+.chart-inner-text {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding-top: 40%;
+    text-align: center;
+    font-size: 22px;
+}
+
+.chart-inner-value {
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+
+
+
+.label-top {
+    transform: translateY(10px);
+}
+
+.area-tooltip {
+    background-color: #343438;
+    border-radius: 4px;
+    border-color: #343438;
+    display: flex;
+    flex-direction: row;
+    height: 32px;
+    align-items: center;
+    width: auto;
+    gap: 8px;
+    padding: 8px
+}
+
+.histogram-tooltip {
+    background-color: #343438;
+    border-radius: 4px;
+    border-color: #343438;
+    display: flex;
+    flex-direction: row;
+    height: 32px;
+    align-items: center;
+    width: auto;
+    gap: 8px;
+    padding: 8px
+}
+
+.chart-around-row {
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.chart-between-row {
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between
+}
+
+.table-container {
+    max-height: 360px;
+
+}
+
+.paper-filter-menu:global(.MuiPaper-root) {
+    max-height: 624px
+}
+
+.table-center {
+    display: flex;
+    align-items: center;
+}

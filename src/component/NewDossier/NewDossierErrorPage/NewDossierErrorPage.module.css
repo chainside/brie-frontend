@@ -1,0 +1,57 @@
+.error-page-background {
+    background-image: url("../../../assets/Login/background.svg");
+    width: 100vw;
+    height: 100vh;
+    background-color: #131316;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: auto;
+    position: fixed;
+    top: 0;
+}
+
+.error-page-card {
+    width: 50%;
+    height: 100%;
+    background-color: #1F1F23;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    min-width: 300px;
+
+}
+
+.error-card-content {
+    width: 60%;
+    height: 249px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.error-icon {
+    color: #FFB4AC;
+    padding: 4px;
+}
+
+.text-with-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.transparent-dialog:global(.MuiPaper-root) {
+    background-color: transparent;
+    box-shadow: none;
+    background-image: none;
+    border-radius: 0;
+}
+
+.button-container {
+    margin-top: 32px;
+    display: flex;
+    gap: 24px;
+}

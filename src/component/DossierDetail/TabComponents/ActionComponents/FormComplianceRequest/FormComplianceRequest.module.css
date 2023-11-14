@@ -1,0 +1,49 @@
+.compliance-main-panel {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 64px 0 64px;
+}
+
+.compliance-header {
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 42px;
+}
+
+.compliance-label-section-container {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+
+.compliance-label-row {
+    display: flex;
+    gap: 16px
+}
+
+
+.desktop-paper:global(.MuiPickersPopper-paper) {
+    border-radius: 16px;
+    overflow: hidden;
+    font-size: 16px;
+    height: 400px;
+    width: 320px;
+}
+
+.menu-item-compliance {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.hidden {
+    display: none;
+}
+
+.error-icon {
+    color: #FFB4AC;
+    align-self: center;
+}

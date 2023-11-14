@@ -1,0 +1,24 @@
+.stack {
+    width: 432px;
+    height: 56px;
+    position: fixed;
+    right: 1rem;
+    top: 1.5rem;
+    z-index: 10;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.alert:global(.MuiAlert-root) {
+    background-color: #E4E1E6;
+    color: black;
+    height: 56px;
+    display: flex;
+    align-items: center
+}
+
+.icon {
+    color: green;
+    align-self: center;
+}

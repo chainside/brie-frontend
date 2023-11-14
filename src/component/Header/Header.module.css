@@ -1,0 +1,32 @@
+.header-background {
+    display: flex;
+    align-items: center;
+    padding-inline: 24px;
+    height: 104px;
+    min-height: 104px;
+    background-color: #131316;
+    z-index: 3;
+}
+
+.header-background-justify-content {
+    justify-content: space-between;
+}
+
+.header-margin {
+    padding: 0 64px 0 64px;
+}
+
+.clickable {
+    cursor: pointer
+}
+
+.header-pr-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px
+}
+
+.header-change-background-color {
+    background-color: #1b1b1f;
+}

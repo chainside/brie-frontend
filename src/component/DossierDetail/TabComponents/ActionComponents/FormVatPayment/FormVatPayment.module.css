@@ -1,0 +1,57 @@
+.vat-main-panel {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 64px 0 64px;
+}
+
+
+.vat-header {
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 42px;
+}
+
+.vat-label-section-container {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+
+.vat-label-row {
+    display: flex;
+    gap: 16px
+}
+
+.vat-calendar:global(.MuiPickersPopper-paper) {
+    border-radius: 16px;
+    background-color: #2A2A2D;
+}
+
+.desktop-paper:global(.MuiPickersPopper-paper) {
+    border-radius: 16px;
+    overflow: hidden;
+    font-size: 16px;
+    height: 400px;
+    width: 320px;
+
+}
+
+.day-paper:global(.MuiPickersDay-root) {
+    font-size: 16px;
+}
+
+.form-helper-text {
+    margin-left: 15px;
+    margin-top: 3px;
+}
+
+.hidden {
+    display: none;
+}
+
+.error-icon {
+    color: #FFB4AC;
+    align-self: center;
+}

@@ -1,0 +1,51 @@
+.QontoStepIcon-circle-internal {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    background-color: #002780;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+
+.QontoStepIcon-circle-internal-disabled {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    background-color: #45464F;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.QontoStepIcon-completedIcon:global(.MuiSvgIcon-root) {
+    color: #002780;
+    font-weight: bold;
+    z-index: 0;
+    height: 16px;
+    width: 16px;
+    background-color: #B7C4FF;
+    border-radius: 50%;
+    margin-top: 3px;
+}
+
+.QontoStepIcon-circle-active {
+    background-color: #B7C4FF;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px
+}
+
+.QontoStepIcon-circle {
+    background-color: #2A2A2D;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px
+}

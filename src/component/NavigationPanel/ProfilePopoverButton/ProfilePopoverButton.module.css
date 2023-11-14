@@ -1,0 +1,78 @@
+.dashboard-profile-button:global(.MuiButtonBase-root.MuiIconButton-root) {
+  background-color: #B7C4FF;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: rgb(8, 37, 114);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.dashboard-profile-button-container {
+  height: 80px;
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  bottom: 10px;
+  align-items: center;
+  color: rgb(8, 37, 114);
+}
+
+.dashboard-profile-popover {
+  width: 216px;
+  height: 137px;
+  background-color: #343438;
+
+}
+
+.dashboard-profile-popover-divider {
+  background-color: rgb(61, 62, 69);
+  height: 2px;
+}
+
+.dashboard-profile-popover-logout-container {
+  width: 100%;
+  margin-top: 0.4rem;
+
+}
+
+
+.dashboard-profile-dialog-title {
+  background-color: #2A2A2D;
+  color: rgb(193, 191, 195);
+  padding-top: 15px;
+}
+
+.dashboard-profile-dialog-content {
+  background-color: #2A2A2D;
+  text-align: start;
+}
+
+.dashboard-profile-popover-info {
+  width: 168px;
+  height: 70px;
+  padding: 16px 0px 0px 16px;
+  gap: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard-profile-dialog-actions-container {
+  padding: 2px 24px 24px 8px;
+  gap: 8px;
+}
+
+.button-hover:global(.MuiButton-root) {
+  padding-left: 16px;
+  border-radius: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  color: #e4e1e614;
+}
+
+.button-hover:global(.MuiButton-root:hover) {
+  background-color: #e4e1e614;
+}

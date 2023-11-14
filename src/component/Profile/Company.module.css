@@ -1,0 +1,63 @@
+.company-background {
+    background-color: #131316;
+    padding-inline: 24px;
+    min-height: 100%;
+    margin-bottom: 50px;
+}
+
+.company-divider:global(.MuiDivider-root) {
+    margin-top: 40px;
+    margin-Bottom: 40px;
+    padding: 0px 24px 0px 24px;
+    background-color: #45464f;
+}
+
+.company-container-external {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.company-name-main-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.company-avatar:global(.MuiAvatar-root) {
+    background-color: #E4E1E61F;
+    width: 56px;
+    height: 56px;
+}
+
+.company-icon:global(.MuiSvgIcon-root) {
+    color: #C6C5D0;
+    opacity: 1;
+    height: 65%;
+    width: 65%;
+}
+
+.company-header-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding-left: 20px
+}
+
+.company-data-main-container {
+    gap: 32px;
+}
+
+.company-row-spacing-container {
+    margin-bottom: 32px;
+}
+
+.company-rows-container {
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+}
+
+.company-typo-container {
+    gap: 8px;
+}

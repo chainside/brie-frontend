@@ -1,0 +1,101 @@
+.dossier-detail-divider:global(.MuiDivider-root) {
+    background-color: #45464f;
+    margin-top: 32px;
+}
+
+.opacity {
+    opacity: 38%;
+}
+
+.tab-info-row-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.tab-info-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 32px;
+    margin-top: 20px
+}
+
+.tab-info-section {
+    width: 627px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.detail-box-external {
+    padding: 0px 20px 20px 20px
+}
+
+.detail-header-selector {
+    height: 48px;
+}
+
+.stepper-label-row {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+}
+
+.stepper-detail {
+    margin-top: 20px;
+}
+
+.icon-margin {
+    margin-right: 7px;
+}
+
+.tab-badge-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.badge-positioning {
+    margin-left: 12px
+}
+
+.action-background {
+    background-color: #1b1b1f;
+    height: 100%;
+}
+
+.action-background-overflow {
+    height: 100%;
+    overflow: auto;
+}
+
+.dossier-footer {
+    position: absolute;
+    height: 88px;
+    width: 100%;
+    bottom: 0;
+    background-color: #1b1b1f;
+    z-index: 10;
+}
+
+.container {
+    margin-bottom: 88px;
+}
+
+.menu-item-compliance {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.fixed-detail-tab-header {
+    position: absolute;
+    background-color: #131316;
+    border-bottom: 1px solid #45464f;
+    width: calc(100% - 120px);
+    z-index: 10;
+}

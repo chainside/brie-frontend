@@ -1,0 +1,93 @@
+{
+  "name": "brie-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/noto-sans": "^5.0.4",
+    "@moveaxlab/redux-saga-tester": "^2.0.4",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.13.6",
+    "@mui/x-date-pickers": "^6.10.2",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.38",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "@typescript-eslint/eslint-plugin": "^5.61.0",
+    "@typescript-eslint/parser": "^5.61.0",
+    "axios": "^1.4.0",
+    "date-fns": "^2.30.0",
+    "dayjs": "^1.11.9",
+    "dotenv-cli": "^7.2.1",
+    "eslint": "^8.44.0",
+    "eslint-plugin-react-redux": "^4.0.0",
+    "i18n-iso-countries": "^7.6.0",
+    "jwt-decode": "^3.1.2",
+    "material-ui-popup-state": "^5.0.9",
+    "prettier": "^3.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.1.1",
+    "react-router-dom": "^6.14.1",
+    "react-scripts": "5.0.1",
+    "recharts": "^2.7.3",
+    "redux": "^4.2.1",
+    "redux-saga": "^1.2.3",
+    "redux-sigma": "^0.8.0-beta.3",
+    "typed-redux-saga": "^1.5.0",
+    "typescript": "^4.9.5",
+    "wait-for-expect": "^3.0.2",
+    "web-vitals": "^2.1.4",
+    "world-countries": "^4.0.0"
+  },
+  "scripts": {
+    "build-staging": "dotenv -e .env.staging react-scripts build",
+    "start-staging": "dotenv -e .env.staging react-scripts start",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --coverage --watchAll",
+    "eject": "react-scripts eject",
+    "lint": "eslint .",
+    "prettier": "prettier --check ."
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/store/stms/**/*.ts",
+      "!**/src/store/stms/store.ts",
+      "!**/src/store/stms/saga.ts",
+      "!**/src/store/stms/**/*.hook.ts",
+      "!**/src/store/stms/**/*.selector.ts",
+      "!**/src/store/stms/stms.ts",
+      "!**/src/store/stms/use*.ts"
+    ],
+    "transformIgnorePatterns": [
+      "node_modules/(?!axios)/"
+    ]
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^8.8.0"
+  }
+}

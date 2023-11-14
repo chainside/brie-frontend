@@ -1,0 +1,31 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "react-app",
+        "react-app/jest",
+        "plugin:react-redux/recommended",
+        "prettier"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "plugins": [
+        "@typescript-eslint"
+    ],
+    "rules": {
+        "no-console": "warn",
+        "eqeqeq": [
+            "warn"
+        ],
+        "curly": [
+            "warn"
+        ]
+    },
+    "ignorePatterns": [
+        "build"
+    ]
+}

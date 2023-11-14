@@ -1,0 +1,27 @@
+.main-panel-container {
+    display: flex;
+    overflow: hidden;
+    flex-grow: 1;
+}
+
+.no-nav-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.scrollable-panel {
+    overflow-y: auto;
+    height: 100%
+}
+
+.scrollable-panel-paperworks-list {
+    overflow: hidden;
+    height: 100%
+}
+
+@media screen and (max-width: 1100px) {
+    .main-panel-container {
+        overflow-x: auto;
+    }
+}

@@ -1,0 +1,25 @@
+FROM node:16-alpine as builderFe
+
+ENV NODE_ENV build
+
+USER node
+WORKDIR /home/node
+
+COPY package*.json ./
+RUN npm ci
+
+COPY --chown=node:node . .
+RUN npm run build \
+    && npm prune --production
+
+# ---
+
+FROM nginx:latest
+
+USER root
+WORKDIR /usr/share/nginx/html
+
+COPY --from=builderFe  /home/node/nginx.conf /etc/nginx/
+COPY --from=builderFe  /home/node/package*.json ./
+COPY --from=builderFe  /home/node/node_modules/ ./node_modules/
+COPY --from=builderFe  /home/node/build/ ./

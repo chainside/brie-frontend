@@ -1,0 +1,56 @@
+.custom-pagination-div {
+    background-color: #1B1B1F;
+    height: 56px;
+    position: fixed;
+    bottom: 0;
+    width: calc(100% - 80px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 24px;
+    z-index: 2;
+}
+
+.vertical-divider:global(.MuiDivider-root) {
+    width: 1px;
+    background-color: #45464F;
+    height: 40px;
+}
+
+
+.icon-pagination-div {
+    width: 96px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 48px;
+}
+
+.pagination-container-div {
+    display: flex;
+    flex-direction: row;
+    width: 320px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pagination-select-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 16px;
+    width: 166px;
+
+}
+
+.top-container {
+    background-color: #131316
+}
+
+.paper-filter-menu:global(.MuiPaper-root) {
+    max-height: 232px
+}

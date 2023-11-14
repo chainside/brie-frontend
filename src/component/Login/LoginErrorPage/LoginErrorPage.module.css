@@ -1,0 +1,38 @@
+.error-page-background {
+    background-image: url("../../../assets/Login/background.svg");
+    width: 100vw;
+    height: 100vh;
+    background-color: #131316;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: auto;
+}
+
+.error-page-card {
+    width: 40%;
+    height: 100%;
+    background-color: #1F1F23;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    min-width: 300px;
+
+}
+
+.error-card-content {
+    width: 60%;
+    height: 249px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.error-icon {
+    color: #FFB4AC;
+    padding: 4px;
+    align-self: center;
+    margin-bottom: -16px;
+}

@@ -1,0 +1,61 @@
+.dashboard-menu-container {
+    width: 80px;
+    height: 100%;
+    background-image: url("../../assets/DashboardMenu/background.svg");
+    background-size: cover;
+    background-color: #2A2A2D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    z-index: 5;
+}
+
+.dashboard-buttons-container {
+    width: 80px;
+    height: 184px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.dashboard-disabled-icon {
+    color: rgb(191, 190, 201);
+    width: 24px;
+    height: 24px;
+}
+
+.dashboard-enabled-icon {
+    color: rgb(218, 221, 247);
+    width: 24px;
+    height: 24px;
+
+
+}
+
+.dashboard-disabled-button {
+    color: rgb(191, 190, 201);
+    width: 56px;
+    height: 56px;
+    align-self: center;
+}
+
+.dashboard-disabled-button:hover {
+    color: rgb(218, 221, 247);
+}
+
+.dashboard-enabled-button:global(.MuiButtonBase-root.MuiIconButton-root) {
+    color: rgb(218, 221, 247);
+    width: 56px;
+    height: 56px;
+    align-self: center;
+    background-color: rgb(58, 62, 78);
+}
+
+.navigation-container {
+    width: 80px;
+    min-width: 80px;
+    z-index: 1600;
+}
